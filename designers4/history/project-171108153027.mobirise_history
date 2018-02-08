@@ -1,0 +1,685 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "designers",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#ff0000",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#eb6b56",
+        "titleFont": "Oswald",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#057eaf",
+        "#2e2e2e",
+        "#ff0000"
+      ]
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 200,
+    "versionPublish": "4.4.0",
+    "path": "@PROJECT_PATH@",
+    "favicon": "@PROJECT_PATH@/assets/images/37-1-100x100.png",
+    "noImageResize": "",
+    "screenshot": "screenshot.png",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "1.45rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.570rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#a8a8a8"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b9b9b9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c1c1c1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ff0000!important"
+            },
+            ".btn": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#c1c1c1",
+            "fontSize": "1.45",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.123contactform.com/form-2764113/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"#\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span>Sell Your Tickets</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"#\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Join Stockist</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"#\"><span class=\"imind-suit mbr-iconfont mbr-iconfont-btn\"></span>Find Fabrics</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"#\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>Text</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "file:///D:/wamp/www/korea/kr-tr/assets/images/kr.svg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "magic-stick",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2u"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "showArrow": true,
+            "imageSize": "39",
+            "bgImageRadio": true,
+            "bgImage": "file:///D:/wamp/www/korea/kr-tr/assets/images/14714503_201644486926973_4048197729510227968_n-1080x810.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a0a0a0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.1"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie_portrait-4-399x626.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "TommyZhong<br>Tommy Zhong / Jenny Nelson, China, Asia",
+          "text": "<b>Bourie</b><b><br></b>조은혜 (JO EUN HYE)<b><br>Korea, Asia</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-2b",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            },
+            ".mbr-section-text": {
+              "font-size": "25px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-text B": {
+              "font-size": "30px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-text SPAN": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "worldwide desingers review 2017",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-3m",
+          "_customCSS": ""
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showDates": true,
+            "iconsColor": "#000000",
+            "blocks": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgImageRadio": false,
+            "bgImage": "file:///D:/wamp/www/korea/kr-tr/assets/images/10f89f3dc8ce1320e51e8b4f9acd202f-564x564.jpg",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.8"
+          },
+          "mainTitle": "TimeLine",
+          "bottomTitle": "<font face=\"Lato, sans-serif\"><span style=\"font-size: 15px;\">\n</span></font><div>When I was addicted to darkness, I found out it was light.</div>",
+          "mainSubtitle": "",
+          "title1": "Part I",
+          "title2": "Part II",
+          "title3": "Part III",
+          "title4": "Part IV",
+          "title5": "2011-2017",
+          "title6": "6. Multi Homepages",
+          "title7": "7. Responsive Design",
+          "title8": "8. Smart Watch",
+          "title9": "9. Design out of the box",
+          "title10": "10. Awesome Reports",
+          "title11": "11. Design out of the box",
+          "title12": "12. Awesome Reports",
+          "date1": "",
+          "date2": "",
+          "date3": "",
+          "date4": "",
+          "date5": "",
+          "date6": "6 June 2016",
+          "date7": "7 July 2016",
+          "date8": "8 August 2016",
+          "date9": "9 September 2016",
+          "date10": "10 October 2016",
+          "date11": "11 November 2016",
+          "date12": "12 December 2016",
+          "text1": "2017 FW<br>2017 SS<br>2016 FW<br>2016 SS<br>2015 FW<br>2014 FW_  &lt; BOURIE &gt; 런칭 및  쇼룸 오픈 프레젠테이션\n<br>2011_  Academie Internationale Coupe de Paris, Paris 여성복 패턴과정 수료\n<br>2009_  서울시 신진디자이너 컨퍼런스 &lt;워너비패션디자이너&gt;금상 수상\n<br>2009_  SADI 패션학과 수료\n<br>2007_  이화여자대학교 음악대학 작곡과 이론전공 졸업<br><br>BOURIE presents women's collection each season since 2014. The collections are designed and developed in Seoul, Korea.\n<br>BOURIE is derived by the way of atelier for experimental and sensual tailoring.&nbsp;<br><br>BOURIE exposes conceptual artistic subject matters through a fabric, photography, film, and art work.<br>",
+          "text2": "After K-pop, K-Beauty, K-fashion came to an era. As interest in Korean fashion brands has warmed to the world as well as overseas famous luxury brands, great attention has been paid to Park Yoon-jung's designer show, which was the first Korean fashion designer in the '2017 S / S Hera Seoul Fashion Week' .\n<br>\n<br>On the 18th, he received a big applause for showing off his second brand, WHY JAY '2017 S / S Seoul Fashion Week', at Cheongdam-dong Garden.\n<br>\n<br>Park Yoon-jung is the daughter of famous designer Lee Kun-woo and the leader of K-fashion. His daughter, Yunina, is a rising designer who has been awarded the Best Designer Award for 'Top Designer 2014'. These three people showed what design heritage is and became proud of Korean design.&nbsp;",
+          "text3": "Apu Jan has garnered a great deal of attention and praise from the international media. He was one of 10 designers shortlisted for the Vogue Italy New Talent contest and has been named as one of GQ TAIWAN’s men of the year. The APUJAN brand has been selected as one of the top 10 Culture and Creative brands in Taiwan, and has been featured in many major fashion publications such as WALLPAPER, Vogue UK and Vogue Italy. More recently, a selection of APUJAN’s garments have been exhibited as a permanent collection at the La Cite de la Dentelle et de la mode in Calais, France. In addition to London Fashion week, APUJAN’s designs can also be seen at Paris Fashion Week, Licensing International in New York, and Fashionclash in Maastricht, Amsterdam. APUJAN’s designs can be found online from the official web shop and in concession shops in Shin Kong Place Suzhou, China; as well as some selected shops in both London and Taipei.&nbsp;",
+          "text4": "1995 \n<br>Participated in Gwangju Biennale, FACT \n<br>1994 \n<br>ASEAN FASHION TRADE EXPO \n<br>1980-1990 \n<br>Central Design Group (JDG COLLECTION) Participated 15 times \n<br>1989 \n<br>ASEAN FASHION WEEK (HONGKONG) \n<br>1988 \n<br>NEW YORK PRET-A-PORTER \n<br>1987 \n<br>Exhibited ART TO WEAR twice (National Museum of Contemporary Art) \n<br>1985 \n<br>Established All-Style Park Yoon-soo \n<br>Participated in COTTON SHOW 2 times (Korea Textile Association)",
+          "text5": "• 2014          : 제9회 아시아 모델 어워즈 국제문화교류상 수상\n<br>• 2012          : 제5회 코리아 패션대상 대통령상 수상\n<br>• 2011,2012     : 세계패션그룹 (FGI) 회장&nbsp;",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-extFeatures2",
+              "name": "layers",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "upload",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "heart",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "pencil",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-extFeatures2",
+              "name": "layers",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media7": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "upload",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media8": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media9": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "heart",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media10": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "pencil",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media11": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "heart",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "media12": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "pencil",
+              "size": 0,
+              "color": "#666666",
+              "family": "et-line"
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures13",
+          "_anchor": "extFeatures13-1n",
+          "_styles": {
+            ".etl-icon": {
+              "color": "#000000"
+            },
+            ".mbr-section-title DIV": {
+              "font-size": "15px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "18px",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            "H4": {
+              "color": "#c1c1c1"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#cccccc",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw73wp-1500x2259.jpg",
+                "thumb": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw73wp-1500x2259-800x1204.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw69wp-1500x2259.jpg",
+                "thumb": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw69wp-1500x2259-800x1204.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw63wp-1500x2259.jpg",
+                "thumb": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw63wp-1500x2259-800x1204.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw61wp-1500x2259.jpg",
+                "thumb": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw61wp-1500x2259-800x1204.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw57wp-1500x2259.jpg",
+                "thumb": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw57wp-1500x2259-800x1204.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw25wp-1500x2259.jpg",
+                "thumb": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw25wp-1500x2259-800x1204.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw05wp-1500x2259.jpg",
+                "thumb": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw05wp-1500x2259-800x1204.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw01wp-1500x2259.jpg",
+                "thumb": "file:///D:/wamp/www/korea/kr-tr/assets/images/bourie17fw01wp-1500x2259-800x1204.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "allItem": "All",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-2l"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": false,
+            "bgImage": "../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/u24YwDzU-yQ?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/u24YwDzU-yQ",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0"
+          },
+          "title": "VIDEO BACKGROUND",
+          "text": "<b style=\"font-style: normal;\">Bourie</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            ".mbr-section-lead": {
+              "font-size": "30px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-size": "36px"
+            },
+            ".mbr-section-lead B": {
+              "font-size": "24px",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "header4-2i"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showContacts": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showForm": true,
+            "inverse": false,
+            "googleMap": {
+              "address": "2F, 560-6 Sinsa-Dong Gangnam-Gu, Seoul, Korea",
+              "placeId": "ChIJRxxNF46jfDURfahZoXfNoz0",
+              "state": "ok",
+              "stateDetails": ""
+            },
+            "bgImageRadio": false,
+            "bgImage": "/addons/mobirise3-blocks/components/_images/img_extForm1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "DROP A MESSAGE",
+          "title1": "To : Bourie",
+          "title2": "Visit our office",
+          "subTitle1": "\n<div>&nbsp;135135 서울특별시 강남구 도곡동 876-6 성암빌딩 B1</div><div>T.(+82) 2 2201 8321\n</div><div>F.(+82) 2 514 8321</div><div>eMail : commercial.bourie@gmail.com</div>",
+          "subTitle2": "Glad to meet new people",
+          "text1": "",
+          "text2": "1234 Street Name </br> City AA 99999",
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND MESSAGE</a>",
+          "form": {
+            "action": "commercial.bourie@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone*"
+              },
+              "message": {
+                "visible": true,
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extForm4",
+          "_anchor": "extForm4-12",
+          "_styles": {
+            "H2": {
+              "font-size": "36px",
+              "color": "#ffffff"
+            },
+            ".intro-box h4": {
+              "font-size": "16px",
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

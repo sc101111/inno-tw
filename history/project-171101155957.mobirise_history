@@ -1,0 +1,953 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "designers",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#ff0000",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#eb6b56",
+        "titleFont": "Oswald",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#ff0000"
+      ]
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 115,
+    "versionPublish": "4.4.0",
+    "path": "@PROJECT_PATH@",
+    "favicon": "@PROJECT_PATH@/assets/images/030-worldwide-128x128.png",
+    "noImageResize": "",
+    "screenshot": "screenshot.png",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "publishType": "local",
+    "publishPath": "file:///D:/wamp/www/hm-7"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "<link href=\"css/main.css\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css?family=Roboto+Slab\" rel=\"stylesheet\">",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/logo-150x80_1.png",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MODERN STYLES",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobirise mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "_name": "msg-box3",
+          "_customHTML": "\n<img src=\"file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/simonchang1108_0040gmail_002ecom/userblocks/mobirise3/msg-box3_13/classic02.png\" style=\"height=48px;width=auto;\" alt=\"\">",
+          "_customCSS": ".mbr-section-title, p {\n  color: #000;\n}\n.btn {\n  font-size: 100px;\n}\n.mbr-section-title {\n  font-size: 36px;\n  color: #ffffff;\n}\n.div1 {\n    width: 100%;\n    float: center;\n    background:white;\n    height: 100%; \n    \n}\na:hover {\n    color: black;\n    text-decoration:none;     \n}\na:link {\n    color: red;\n}\n\n/* visited link */\na:visited {\n    color: red;\n}",
+          "_customTemplate": true,
+          "_anchor": "msg-box3-36",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "autoplay": false,
+            "animType": "fade",
+            "theme": "absent",
+            "slides": [
+              {
+                "image": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-850x480.jpg",
+                "tooltip": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": true
+              },
+              {
+                "image": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-1-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-15-850x480.jpg",
+                "tooltip": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-1-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-2-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-10-850x480.jpg",
+                "tooltip": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-2-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-3-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-25-850x480.jpg",
+                "tooltip": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-3-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-4-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-1-850x480.jpg",
+                "tooltip": "file:///D:/wamp/www/hm-7/assets/images/shokay2017collection-4-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "timeout": "1",
+            "duration": "0.5",
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-1y"
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/logo-150x80_1.png",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MODERN STYLES",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobirise mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "_name": "msg-box3",
+          "_customHTML": "\n<img src=\"file:///d:/classic02-1.png\" style=\"height=48px;width=auto;\" alt=\"\">",
+          "_customCSS": ".mbr-section-title, p {\n  color: #000;\n}\n.btn {\n  font-size: 100px;\n}\n.mbr-section-title {\n  font-size: 36px;\n  color: #ffffff;\n}\n.div1 {\n    width: 100%;\n    float: center;\n    background:white;\n    height: 100%; \n    \n}\na:hover {\n    color: black;\n    text-decoration:none;     \n}\na:link {\n    color: red;\n}\n\n/* visited link */\na:visited {\n    color: red;\n}",
+          "_customTemplate": true,
+          "_anchor": "msg-box3-3c",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/logo-150x80_1.png",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MODERN STYLES",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobirise mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "_name": "msg-box3",
+          "_customHTML": "<section class=\"mbr-section article\" data-rv-view=\"396\" style=\"background-color: #057EAF; padding-top: 5px; padding-bottom: 4px;\">\n\n   \n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n           <div class=\"div1\"><a href=\"#\"> <img src=\"false\" width=\"65\" height=\"65\"> <img src=\"false\" width=\"80\" height=\"40\"><font face=\"arial\" style=\"font-size:30px; color: rgb(255, 255, 255);font-weight: bold; vertical-align: middle;\">&nbsp;</font></a></div>       \n    </div>           </div>\n               </section>\n",
+          "_customCSS": ".mbr-section-title, p {\n  color: #000;\n}\n.btn {\n  font-size: 100px;\n}\n.mbr-section-title {\n  font-size: 36px;\n  color: #ffffff;\n}\n.div1 {\n    width: 100%;\n    float: center;\n    background: #057EAF;\n    height: 100%; \n    \n}\n\na:hover {\n    text-decoration:none; \n    \n}\n",
+          "_customTemplate": true,
+          "_anchor": "msg-box3-36"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSearch": false,
+            "rowСount": "1",
+            "colCount": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/sky_1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "TABLE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Name</th></tr></thead><tbody><tr><td><b>Designers Demand</b></td><td><b>Suppliers Demand</b></td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_customHTML": "<div class=\"container table-wrapper\" info3-text=\"(filtered from\" data-search=\"false\" search-text=\"Search:\" info1-text=\"Showing\" info2-text=\"entries\" info4-text=\"total entries)\">      \n        <table class=\"table mbr-editable-content\" cellspacing=\"0\" width=\"100%\" code-editable-id=\"13\"><thead><tr></tr></thead><tbody><tr><td><a href=\"#\"><img src=\"d:/13.png\" width=\"80\" height=\"60\"><h5>Buyers</h5></a></td><td><a href=\"#\"><img src=\"d:/14.png\" width=\"60\" height=\"60\"><h5>Suppliers</h5></a></td><td><a href=\"#\"><img src=\"d:/15.png\" width=\"60\" height=\"60\"><h5>Meeting</h5></a></td></tr></tbody></table></div>\n",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nTABLE {\n  text-align: center;\n}\nTD {\n  font-size: 28px;\n    \n  font-family: 'Oxygen', sans-serif;\n}\nB {\n  font-size: 36px;\n}\na:hover {\n    color: red;\n    text-decoration:none; \n    \n}\n",
+          "_customTemplate": true,
+          "_anchor": "extTable1-2i",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSearch": false,
+            "rowСount": "1",
+            "colCount": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/sky_1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "TABLE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Name</th></tr></thead><tbody><tr><td><b>Designers Demand</b></td><td><b>Suppliers Demand</b></td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_customHTML": "<section class=\"mbr-section extTable1\" data-rv-view=\"255\" style=\"background-color:White; padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container table-wrapper\" info3-text=\"(filtered from\" data-search=\"false\" search-text=\"Search:\" info1-text=\"Showing\" info2-text=\"entries\" info4-text=\"total entries)\">      \n        <table class=\"table mbr-editable-content\" cellspacing=\"0\" width=\"100%\" code-editable-id=\"219\"><thead><tr></tr></thead><tbody><tr><td><a href=\"#\"><span class=\"fa fa-volume-up mbr-iconfont mbr-iconfont-btn\"></span><h5>Designers Demand</h5></a></td><td><a href=\"#\"><span class=\"fa fa-comment-o mbr-iconfont mbr-iconfont-btn\"></span><h5>Short Text</h5></a></td><td><a href=\"#\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span><h5>Service Support</h5></a></td></tr></tbody></table>\n    </div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nTABLE {\n  text-align: center;\n}\nTD {\n  font-size: 24px;\n    \n  font-family: 'Oxygen', sans-serif;\n}\nB {\n  font-size: 36px;\n}\na:hover {\n    color: red;\n    text-decoration:none; \n    background-color: white;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "extTable1-22",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSearch": false,
+            "rowСount": "1",
+            "colCount": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/sky_3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "TABLE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Name</th></tr></thead><tbody><tr><td><b>Designers Demand</b></td><td><b>Suppliers Demand</b></td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_customHTML": "<section class=\"mbr-section extTable1\" data-rv-view=\"255\" style=\"background-color:White; padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container table-wrapper\" info3-text=\"(filtered from\" data-search=\"false\" search-text=\"Search:\" info1-text=\"Showing\" info2-text=\"entries\" info4-text=\"total entries)\">      \n        <table class=\"table mbr-editable-content\" cellspacing=\"0\" width=\"100%\" code-editable-id=\"245\"><thead><tr></tr></thead><tbody><tr><td><a href=\"#\"><span class=\"mbri-help mbr-iconfont mbr-iconfont-btn\"></span><h5>More News</h5></a></td><td><a href=\"#\"><span class=\"mbri-gift mbr-iconfont mbr-iconfont-btn\"></span><h5>On Sale</h5></a></td><td><a href=\"#\"><span class=\"etl-icon icon-chat mbr-iconfont mbr-iconfont-btn\"></span><h5>Docs Reports</h5></a></td><td><a href=\"#\"><span class=\"fa fa-youtube mbr-iconfont mbr-iconfont-btn\"></span><h5>Live Video</h5></a></td></tr></tbody></table>    </div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nTABLE {\n  text-align: center;\n    \n}\nTD {\n  font-size: 22px;\n    \n  font-family: 'Oxygen', sans-serif;\n}\nB {\n  font-size: 36px;\n}\na:hover {\n    color: red;\n    text-decoration:none; \n    background-color: white;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "extTable1-20",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "_name": "social-buttons4",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding\" data-rv-view=\"2997\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n              \n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-size:36px;text-align: center; background-color:#000000; padding-top: 25px; padding-bottom: 15px;\" code-editable-id=\"14\"><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc8QvzXoe5hGYvYhUM0UsOrURJ8XcpToInXDZ564OLiTuikKA/viewform\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Global Designers / Join Now</a></h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customCSS": ".mbr-section-title, .btn-social {\n  color: #fff;\n}\na:hover {\n    color: red;\n    text-decoration:none; }",
+          "_customTemplate": true,
+          "_anchor": "social-buttons4-2p",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-size": "25px"
+            },
+            ".lead P": {
+              "font-size": "14px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1a",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "file:///D:/wamp/www/hm-7/assets/images/fashion-design-slide-1-2000x833.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.2"
+          },
+          "title": "Global Designers",
+          "text": "<p><b>Top fashion designers, fabrics' suppliers and events.</b></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_customCSS": ""
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#2e2e2e",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/portrait-baum-und-pferdgarten-by-katrine-rohrberg-red-630x406.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/portrait-baum-und-pferdgarten-by-katrine-rohrberg-red-630x406-630x406.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/portrait-astrid-andersen-352x480.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/portrait-astrid-andersen-352x480-352x480.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/martinasbjorn-fw-10-2048x2048-2-723x570.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/martinasbjorn-fw-10-2048x2048-2-723x570-723x570.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/20160228151852586842757-640x640.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/20160228151852586842757-640x640-640x640.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/olga-brovkina-1-1036x1176.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/olga-brovkina-1-1036x1176-800x908.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/9zpmnrwi-400x400-338x338.png",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/9zpmnrwi-400x400-338x338-338x338.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/gulyaev3fon2-1090x898.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/gulyaev3fon2-1090x898-800x659.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/0-musika-frere-suits-by-davidson-petit-frere-600x963.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/0-musika-frere-suits-by-davidson-petit-frere-600x963-600x963.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/xs05cjrvu3u1313-3-318x463.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/xs05cjrvu3u1313-3-318x463-318x463.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/w470-470x535.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/w470-470x535-470x535.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/20150129-7913-2-798x800.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/20150129-7913-2-798x800-798x800.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/pr-photo-2000x3000.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/pr-photo-2000x3000-800x1200.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/350x364.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/350x364-350x364.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/1111-588x820.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/1111-588x820-588x820.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/2010060-file-745563033152016100000-280x470.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/2010060-file-745563033152016100000-280x470-280x470.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/f5b2c4b0dda58eb98bf4ed2d73f7a80e-2000x2864.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/f5b2c4b0dda58eb98bf4ed2d73f7a80e-2000x2864-800x1145.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/yangi-400x589.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/yangi-400x589-400x589.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/2008-3-17-taibeishow411-1-467x700.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/2008-3-17-taibeishow411-1-467x700-467x700.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/22344890-796734930497311-9207132181393047552-0n-640x716.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/22344890-796734930497311-9207132181393047552-0n-640x716-640x716.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/17910-654x528.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/17910-654x528-654x528.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "active": false,
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/5865-9417-134-1904x2592-800x1089.jpg",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/5865-9417-134-1904x2592.jpg",
+                "alt": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170-2fwvropp-eb9494ec9e90ec9db4eb8488-300x400-300x400.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170-2fwvropp-eb9494ec9e90ec9db4eb8488-300x400-300x400-300x400.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "active": false,
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170-tcanpwz1-eba3a8ecb998ecb9b4-choi-chanbum-300x450-300x450-300x450.jpg",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170-tcanpwz1-eba3a8ecb998ecb9b4-choi-chanbum-300x450-300x450.jpg",
+                "alt": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/3543142170-zysix3bj-harrysco-milan-hyun-kyou-lee-197x273.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/3543142170-zysix3bj-harrysco-milan-hyun-kyou-lee-197x273-197x273.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/c7e08f9f12676ccf2fac34c4d2ff6049-1458x1945.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/c7e08f9f12676ccf2fac34c4d2ff6049-1458x1945-800x1067.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170-2yw8ue5y-tentacle-park-heui-jin-300x300-300x300.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170-2yw8ue5y-tentacle-park-heui-jin-300x300-300x300-300x300.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/26-1-291x376.png",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/26-1-291x376-291x376.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/style-57fb019b0c074-1200x800-2-624x748.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/style-57fb019b0c074-1200x800-2-624x748-624x748.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170-ywoqbs6x-eb9dbded8ab8eab09ceb9faceca780-homin-byeon-300x450-300x450.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170-ywoqbs6x-eb9dbded8ab8eab09ceb9faceca780-homin-byeon-300x450-300x450-300x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/%25b5%25f0%25c0%25da%25c0%25cc%25b3%25ca%2520%25bb%25e7%25c1%25f8%25281%252912-574x728.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/b5f0c0dac0ccb3ca20bbe7c1f82812912-574x728-574x728.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/0bc28358599490271a6b1eb3914393a8-984x1583.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/0bc28358599490271a6b1eb3914393a8-984x1583-800x1286.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/brandimg-317-400x667.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/brandimg-317-400x667-400x667.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/maxresdefault-290-412x580.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/maxresdefault-290-412x580-412x580.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/2015483786-2-387x325.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/2015483786-2-387x325-387x325.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/bee42b6925ad4028fc7220e9032d148c-520x618.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/bee42b6925ad4028fc7220e9032d148c-520x618-520x618.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/2013050211554555080-320x386.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/2013050211554555080-320x386-320x386.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/20151117000001185-109-400x612.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/20151117000001185-109-400x612-400x612.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170_arzuvbpi_ec9584ec9b83ec8aa4ed8590eb94a9ec98a4eb9494eb8488eba6ac_lee_ok_sun_28229_300x452-300x452.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/thumb-3543142170-arzuvbpi-ec9584ec9b83ec8aa4ed8590eb94a9ec98a4eb9494eb8488eba6ac-lee-ok-sun-28229-300x452-300x452-300x452.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/22280107-358469511275030-2635728185815203840-n-640x640.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/22280107-358469511275030-2635728185815203840-n-640x640-640x640.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "file:///D:/wamp/www/korea/designers4/assets/images/45207-120024-5043-450x573.jpg",
+                "thumb": "file:///D:/wamp/www/korea/designers4/assets/images/45207-120024-5043-450x573-450x573.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "allItem": "All",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-32"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "_name": "social-buttons4",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding\" data-rv-view=\"2997\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n              \n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-size:36px;text-align: center; background-color:#000000; padding-top: 25px; padding-bottom: 15px;\" code-editable-id=\"252\"><a href=\"https://www.123contactform.com/form-2764113/\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Global Suppliers / Join Now</a></h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customCSS": ".mbr-section-title, .btn-social {\n  color: #fff;\n}\na:hover {\n    color: red;\n    text-decoration:none; }",
+          "_customTemplate": true,
+          "_anchor": "social-buttons4-2r",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "worldwide desingers review 2017",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1t",
+          "_customCSS": ""
+        }
+      ]
+    }
+  }
+}

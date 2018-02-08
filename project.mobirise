@@ -1,0 +1,445 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "designers",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#ff0000",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#eb6b56",
+        "titleFont": "Oswald",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#ff0000"
+      ]
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 132,
+    "versionPublish": "4.6.2",
+    "path": "@PROJECT_PATH@",
+    "favicon": "@PROJECT_PATH@/assets/images/030-worldwide-128x128.png",
+    "noImageResize": "",
+    "screenshot": "screenshot.png",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "publishType": "local",
+    "publishPath": "file:///D:/wamp/www/hm-7"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showSearch": false,
+            "rowСount": "4",
+            "colCount": "2",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/sky.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "APP Developer",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>New</th><th>Past</th></tr></thead><tbody><tr><td>新開發方式 : write once, run anywhere. 程編一次,多規使用,一次上架成本</td><td>舊開發方式: 下載軟體, SDK, 套裝CMS,多重上架成本 IOS, Android, Web</td></tr><tr><td>新架構: <b>1</b>. React Native <b>2</b>. Onsen UI <b>3</b>. Ionic</td><td>舊架構: 優點:開發時程快 ; 缺點:爆量易當, SourceCode由vendors掌控</td></tr><tr><td>DB: Mongo DB, Apache Cassandra, CouchDB</td><td>DB: SQL, MySQL, PostgreSQL, NuoDB, Oracle Database</td></tr><tr><td>適合雲級平台及第三方內建Add-On</td><td>適合傳統網站, 轉型APP</td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#2e2e2e",
+              "font-size": "32px"
+            },
+            "TH": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "extTable1-3c"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSearch": false,
+            "rowСount": "4",
+            "colCount": "2",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/sky.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "QR Code WC v.s. SF",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>WeChat QR</th><th>SalesFroce QR</th></tr></thead><tbody><tr><td>開發方式: 下載軟體: 微信開發者工具</td><td>開發方式: 透過add-on, 使用第三方嵌入程碼.</td></tr><tr><td>優點: 使用者隨時可取得QR code ; 缺點: 需常更新bugs. 有時效性,客戶不易建立忠誠度</td><td>優點: 雲端級規格; 安全由第三方分擔, 可提升效率, 永久有效 ; 缺點: 需基本程碼認知.</td></tr><tr><td>儲存使用量: 僅 2M (WSS)電信規格 ; 圖片傳送取代埠號規格.</td><td>儲存使用量: 1G 為最高限制, 300M以內速度較快.</td></tr><tr><td>版本控制: 透過內建軟體上傳雲儲空間, 無公有雲</td><td>版本控制: 可放置在公有雲: bitbucket, dropbox, github</td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#2e2e2e",
+              "font-size": "32px"
+            },
+            "TH": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "extTable1-2s"
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/logo-150x80_1.png",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MODERN STYLES",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobirise mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "_name": "msg-box3",
+          "_customHTML": "<section class=\"mbr-section article\" data-rv-view=\"396\" style=\"background-color: #white; padding-top: 4px; padding-bottom: 3px;\">\n\n   \n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n           <div class=\"div1\"><a href=\"#\"> <img src=\"data:image/png;base64,{PHP_CODE_0}\"><font face=\"microsoft jhenghei\" style=\"font-size:20px; color: red;font-weight: bold; vertical-align: middle;\">&nbsp;右圖為內建第三方Add On產生QR CODE</font></a></div>       \n    </div>       \n    </div>\n               </section>\n",
+          "_customCSS": ".mbr-section-title, p {\n  color: #000;\n}\n.btn {\n  font-size: 100px;\n}\n.mbr-section-title {\n  font-size: 36px;\n  color: #ffffff;\n}\n.div1 {\n    width: 100%;\n    float: center;\n    background: white;\n    height: 100%; \n    \n}\n\na:hover {\n    text-decoration:none; \n    \n}\n",
+          "_customTemplate": true,
+          "_anchor": "msg-box3-3a",
+          "_PHPplaceholders": [
+            "<?php echo base64_encode(file_get_contents(\"https://qrackajack.expeditedaddons.com/?api_key=0SV673W4KP1DL4HN5QJFXTRYC2G8O6MU30BIAZ18E75929&content=http://example.org&width=120&height=120&fg_color=#ff0000&bg_color=#ffffff\")) ?>"
+          ],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSearch": false,
+            "rowСount": "5",
+            "colCount": "4",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/sky.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/lawQB868PjI?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/lawQB868PjI",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": true,
+            "overlayColor": "#2e2e2e",
+            "overlayOpacity": "0.5"
+          },
+          "title": "Spec. of Iphone &amp; drop test",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Iphone Model</th><th>Display Size</th><th>Resolution (px)</th><th>Screen Size</th></tr></thead><tbody><tr><td>I4 (S)</td><td>3.5 in</td><td>640x940</td><td>320x480</td></tr><tr><td>I5 (C/S/SE)</td><td>4.0 in</td><td>640x1136</td><td>320x568</td></tr><tr><td>I6/7/8 (S)</td><td>4.7 in</td><td>750x1334</td><td>375x667</td></tr><tr><td>I6/7/8+ (S)</td><td>5.5 in</td><td>1080x1920</td><td>414x736</td></tr><tr><td>IphoneX</td><td>5.8 in</td><td>946x2048</td><td>375x812</td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_anchor": "extTable1-2r",
+          "_styles": {
+            "TD": {
+              "font-size": "12px",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "color": "#ffffff"
+            },
+            "TH": {
+              "font-size": "14px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#efefef"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "55",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "file:///D:/wamp/www/report/0930/assets/images/photo.php-3-499x334.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SMART WEAR IN Taiwan 2017",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Conductive Fabrics 導電面料<br></a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2q",
+          "_customHTML": "<section class=\"mbr-section\" data-rv-view=\"222\" style=\"background-color: rgb(255, 255, 255); padding-top: 0px; padding-bottom: 0px;\">\n\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              \n\n              <div class=\"mbr-table-cell col-md-5 text-xs-center text-md-right content-size\">\n                  <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"11\">SMART WEAR IN Taiwan 2017</h3>\n                  \n\n                  <div><a class=\"btn btn-primary mbr-editable-button\" href=\"\" code-editable-id=\"12\"><font face=\"microsoft yahei\" style=\"font-size: 20px; color:white ;\">Conductive Fabrics 導電面料<br></font></a></div>              </div>\n\n\n              \n\n\n              <div class=\"mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size\" style=\"width: 55%;\">\n                  <div class=\"mbr-figure\"><img src=\"file:///D:/wamp/www/report/0930/assets/images/photo.php-3-499x334.jpg\"></div>\n              </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "H3 {\n  font-size: 36px;\n}\n.btn {\n  font-size: 20px;\n}\n",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "animText1": "AGENCIES",
+            "animText2": "STARTUPS",
+            "animText3": "PORTFOLIOS",
+            "typeSpeed": 60,
+            "bgImageRadio": true,
+            "bgImage": "file:///D:/wamp/www/report/0930/assets/images/qlchat-1366x702.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0"
+          },
+          "title": "WEBSITE BUILDER <br> FOR",
+          "text": "<b style=\"font-style: normal;\">2017/10/02</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://m.qlchat.com/wechat/page/live/auth/\" data-toolbar=\"-mbrBtnMove\">千聊主體認證目前無法對接886.</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extHeader11",
+          "_anchor": "extHeader11-2n",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            },
+            "B": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSearch": false,
+            "rowСount": "8",
+            "colCount": "2",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/sky.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "PCHOME V.S. SHOPEE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Pchome近況</th><th>Shopee近況</th></tr></thead><tbody><tr><td>網家股號 (8044) 由500滑落至目前155左右, 商店街 (4965) 由250滑落至目前60左右</td><td>2015 年底，蝦皮在台灣正式上線，雖然背後有東南亞最大遊戲公司 SEA 與中國騰訊</td></tr><tr><td>2016 個人拍賣平台露天拍賣，於年底正式宣佈中止海外上市計劃</td><td>主打年輕學生，讓賣家可簡單在手機上做買賣，這跟台灣網購過去鎖定 25 歲以上</td></tr><tr><td>2017 六月 20 日商店街的股東會，詹宏志表示：因為新手蝦皮拍賣！</td><td>蝦皮在台灣的下載數便突破 600 萬，幾乎每 4 個台灣人，有一個下載過蝦皮。</td></tr><tr><td>網家加商店街，手上現金約 100 億元，並非打不起補貼戰。詹宏志顧慮是，如果拿露天應戰，露天的量體大，要全面補貼，將如同焦土政策，犧牲過大。</td><td>蝦皮發起補貼策略。外界曾估算，蝦皮去年補貼免運費、手續費等金額，全年至少花費 3 億到 6 億元，這相當於網家去年稅後淨利的 36% 到 73%。</td></tr><tr><td>詹宏志說，露天累積 11 年，逾百萬賣家要從 PC 介面快速轉移到手機介面，並不容易。龐大資產，頓時竟成為讓網家猶疑的包袱。</td><td>蝦皮雖然經營的是 C2C 的拍賣，賣家可以看到買家的取貨紀錄，了解買家信譽，決定是否出貨等等，這在當時都是台灣首創。</td></tr><tr><td>網家今年第 1 季首次出現淨損。</td><td>開發行動系統介面與服務。</td></tr><tr><td>2017 七月1日 網家因應Shopee, 提出開放個人免費申請Pchome個人商店。<a href=\"https://paystore.pcstore.com.tw/adm/contract/apply_salecase.htm?s=IQDuarI__KLJMF-QfidZVF_rqZd7ymZhh\">單店專案免開通設定費免年費</a></td><td>2017 九月1日 蝦皮拍賣今宣布品牌升級為「蝦皮購物」全方位購物平台, 蝦皮購物首席營運長馮時欽表示，免運費不是蝦皮唯一的武器。</td></tr><tr><td>2017 十月5日 網家總經理李宏麟去職轉往日本發展，總經理職務暫由營運長蔡凱文代理。</td><td>2017 十月6日 新北市新莊警分局逮獲蘇姓主嫌利用蝦皮購物藏詐欺36人被騙走150萬。</td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_anchor": "extTable1-2g",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#2e2e2e",
+              "font-size": "32px"
+            },
+            "TH": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/logo-150x80_1.png",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MODERN STYLES",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobirise mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "_name": "msg-box3",
+          "_customHTML": "<section class=\"mbr-section article\" data-rv-view=\"396\" style=\"background-color: #057EAF; padding-top: 4px; padding-bottom: 3px;\">\n\n   \n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n           <div class=\"div1\"><font face=\"microsoft jhenghei\" style=\"font-size:20px; color: rgb(255, 255, 255);font-weight: bold; vertical-align: middle;\">台灣各大電商收費比較</font></div>       \n    </div>       \n    </div>\n               </section>\n",
+          "_customCSS": ".mbr-section-title, p {\n  color: #000;\n}\n.btn {\n  font-size: 100px;\n}\n.mbr-section-title {\n  font-size: 36px;\n  color: #ffffff;\n}\n.div1 {\n    width: 100%;\n    float: center;\n    background: #057EAF;\n    height: 100%; \n    \n}\n\na:hover {\n    text-decoration:none; \n    \n}\n",
+          "_customTemplate": true,
+          "_anchor": "msg-box3-2l",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "file:///D:/wamp/www/report/0930/assets/images/936x665.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-2i"
+        }
+      ]
+    }
+  }
+}

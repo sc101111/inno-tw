@@ -1,0 +1,346 @@
+// Check for GET parameters (used for country)
+function parse(val) {
+    var result = "Not found",
+        tmp = [];
+    location.search
+    .substr(1)
+        .split("&")
+        .forEach(function (item) {
+        tmp = item.split("=");
+        if (tmp[0] === val) result = decodeURIComponent(tmp[1]);
+    });
+    return result;
+}
+
+function ajaxload(select_val){
+	if(select_val == '1'){
+		select_val = '2,9,10,11,12';
+	}
+
+    if(select_val == '11'){
+		select_val = '11,12';
+	}
+
+	var selected_prod = $('#filterform_products').children('select').val();
+	var total_nb_prod = 0;
+    if (parse("country") == "es") {
+        alert("es");
+    }
+
+	if($("#only_new").is(':checked')){
+		var newbrands = '1';
+	} else {
+		var newbrands = '0,1';
+	}
+
+	if((select_val == '4')&&(selected_prod != '0')){
+		var data = {
+			univers: select_val,
+			tradeshows: "4",
+			new: newbrands,
+			first_activity: selected_prod
+		}
+	}else{
+		var data = {
+			univers: select_val,
+			tradeshows: "4",
+			new: newbrands
+		}
+	}
+
+	$.ajax( {
+		type: "GET",
+		url: "http://5d.whosnext.com/generate_json.php",
+		data: data,
+		dataType: "jsonp",
+		jsonpCallback: "callback",
+		crossDomain : true,
+		contentType: "application/json;charset=utf-8",
+		beforeSend: function () {
+			$("#wait").css("display", "block");
+			$('#left_side').empty();
+			$('#right_side').empty();
+			$('#filterform_products select').empty();
+		},
+		success: function(data)
+		{
+			var test_data = unescape(data);
+			var current_nb = 0;
+			var total_nb = Object.keys(data).length;
+			var products_list = ['None', 'Vêtements/Clothes', 'Femme/Woman', 'Homme/Man', 'Enfant/Child', 'Cuir, peaux, fourrure/Leather and fur', 'Maille/Knitwear', 'Bijoux/Jewels', 'Chaussures/Shoes', 'Sacs/Bags', 'Chapeaux/Hats', 'Foulards/Scarves', 'Gants/Gloves', 'Maroquinerie/Leather goods', 'Bagagerie/Luggage', ' Scolaire/School Bags', 'Accessoires Multiples/Multiple Accessories', 'Accessoires/Accessories', 'Manteaux/Coats', 'Lingerie/Underwear', 'Petite Maroquinerie/Small Leathergoods', 'Ceintures/Belts', 'Chaussettes/Socks', 'Boutons de manchettes/Cufflinks', 'Parapluies/Umbrellas', 'Cravates/Ties', 'Lunettes/Glasses', 'Accessoires de Tête/Hair Accessories', 'Produit d\'entretien du cuir/Leather care pr', 'Objets de la maison/Home accessories', 'Objet/Design', 'Casques/Helmets'];
+			var prod_list = [];
+
+			$.each(data, function(index, element) {
+				if(element.first_activity!=""){
+					prod_list.push(element.first_activity);
+				};
+
+				current_nb++;
+				var id = element.id;
+				var title = element.name;
+				var hall = element.hall;
+				var stand = element.stand;
+				var theid = element.id;
+
+				if(current_nb > Math.round((total_nb/2))){
+					side = '#right_side';
+				}else {
+					side = '#left_side';
+				}
+
+				var new_item = '';
+				if(element.new > 0){
+					new_item = '*';
+				}
+
+				if(element.website){
+					if(element.website.substring(0,7) == 'http://'){
+						var website = element.website.substring(7);
+					} else {
+						var website = element.website;
+					}
+					var item_content = '<a href="http://' + website + '" title="' + title + '" target="_blank">' + title + new_item + '</a>';
+				} else {
+					var item_content = title + new_item;
+				}
+
+				if(element.hall || element.stand){
+					item_content = item_content + '<p class="small hallstand">';
+					if(element.hall){
+						item_content = item_content + 'Hall ' + hall;
+					}
+					if(element.hall && element.stand){
+						item_content = item_content + ' - ';
+					}
+					if(element.stand){
+						item_content = item_content + 'Stand ' + stand;
+					}
+					item_content = item_content + '</p>';
+				}
+
+				$('<div class="branditem"></div>').html(item_content).appendTo(side);
+			});
+
+			var drop_products = prod_list.filter(function(itm,i,prod_list){
+				return i==prod_list.indexOf(itm);
+			});
+			drop_products.sort(function(a, b){return a-b});
+
+			$('#filterform_products select').append($('<option>', {
+		        value: 0,
+		        text : 'All products/Tous les produits'
+		    }));
+			drop_products.forEach(function(id){
+				$('#filterform_products select').append($('<option>', {
+			        value: id,
+			        text : products_list[id]
+			    }));
+			});
+
+			$("#wait").css("display", "none");
+		}
+	});
+}
+/*
+function ajax_get_prod_list(){
+	$.ajax({
+		type: "GET",
+		url: "http://5d.whosnext.com/products_json.php",
+		dataType: "jsonp",
+		jsonpCallback: "callback",
+		crossDomain : true,
+		contentType: "application/json;charset=utf-8",
+		beforeSend: function () {
+			$('#filterform_products select').empty();
+		},
+		success: function(data)
+		{
+			var total_nb_prod = Object.keys(data).length;
+			console.log(total_nb_prod);
+		}
+	});
+}
+*/
+
+/*
+* START SWITCH MEDIA
+*/
+$(".slide_focus > .slide_focus_content > .content > .media_item").click(function(){
+	var theid = $(this).data( 'iditem' );
+	var currentid;
+	$(".slide_focus_media > .media_zone > .media_item").each(function(){
+		currentid = $(this).data( 'iditem' );
+		if (theid != currentid) {
+			$(this).removeClass( "selected" );
+		} else {
+			$(this).removeClass( "selected" ).addClass( "selected" );
+		}
+	});
+});
+
+/*
+* START PLAYER VIDEO
+*/
+var status = 'pause';
+
+// Call the API when a button is pressed
+$('.embed-container').bind('click', function() {
+    vidid = '#' + $(this).data( 'iditem' );
+    iframe = $(vidid)[0];
+    player = $f(iframe);
+
+    if(status === 'pause'){
+    	status = 'play';
+    } else {
+    	status = 'pause';
+    }
+    player.api(status);
+    //player.api($(this).text().toLowerCase());
+});
+
+
+$('.picture_screen').bind('click', function() {
+    if(status === 'play'){
+    	status = 'pause';
+    }
+    player.api(status);
+    //player.api($(this).text().toLowerCase());
+});
+
+/*
+* START PROGRAM
+*/
+
+$(".schedule li").each(function() {
+	var nowdate = $('#now').data('now');
+	var schedulestart = $(this).data('start');
+	var schedulestop = $(this).data('stop');
+	if ((schedulestart <= nowdate) && (nowdate < schedulestop)){
+		$(this).addClass("active");
+		$(this).children("div.time").prepend('<div class="live">Live !</div>')
+		//$(".active .time").prepend('<div class="live">Live !</div>');
+	}
+});
+
+$(document).ready(function(){
+	// START PARAM
+	$('.section .entry-content').hide();
+	$('#lang #otherslang').css({bottom:-($('#lang #otherslang').height() + 20)});
+
+	// READ MORE SLIDES
+	$('.section .more').click(
+		function(){
+			var parentid = $(this).parents('article').attr('id');
+			$('#' + parentid + ' > footer > .more').fadeOut('slow');
+			$('#' + parentid + ' > .entry-content').fadeIn('slow');
+		}
+	);
+
+	// MENU LANGUES
+	$('#lang').mouseenter(function(){
+		$('#lang #otherslang').stop();
+		$('#lang #otherslang').animate({
+			bottom:30
+		}, 'slow' );
+	});
+
+	$('#lang').mouseleave(function(){
+		$('#lang #otherslang').stop();
+		$('#lang #otherslang').animate({
+			bottom:-($('#lang #otherslang').height() + 20)
+		}, 'slow' );
+	});
+
+	// EXHIBIT
+	var posleft = $('.left > .exhibitcontentside').offset();
+	//posleft.top = 0;
+	//posleft.left = -$('.left > .exhibitcontentside').width();
+	$('.left > .exhibitcontentside').offset(posleft);
+
+	var posright = $('.right > .exhibitcontentside').offset();
+	//posright.top = 0;
+	//posright.right = -$('.right > .exhibitcontentside').width();
+	$('.right > .exhibitcontentside').offset(posright);
+
+	$('.left > .exhibitside').click(
+		function() {
+			var $theid = $(this).parent().attr('id');
+			$('.left > .exhibitside').css("z-index","15");
+			$('.left > .exhibitcontentside').css("z-index","20");
+			$('#' + $theid + '> .exhibitcontentside').show();
+			$('#' + $theid + '>.exhibitcontentside').animate({
+				left:0
+			}, 'slow');
+		}
+	);
+
+	$('.right > .exhibitside').click(
+		function() {
+			var $theid = $(this).parent().attr('id');
+			$('.right > .exhibitside').css("z-index","15");
+			$('.right > .exhibitcontentside').css("z-index","20");
+			$('#' + $theid + '> .exhibitcontentside').show();
+			$('#' + $theid + '>.exhibitcontentside').animate({
+				right:0
+			}, 'slow');
+		}
+	);
+
+	$('.left > .exhibitcontentside > .insidecontent > div > .close').click(
+		function() {
+			var theposition = -$('.left > .exhibitcontentside').width();
+			$('.left > .exhibitcontentside').animate({
+				left:theposition
+			}, 'slow').queue(function() {
+				$('.left > .exhibitcontentside').hide();
+				$('.left > .exhibitside').css("z-index","5");
+				$('.left > .exhibitcontentside').css("z-index","10");
+				$(this).dequeue();
+			});
+		}
+	);
+
+	$('.right > .exhibitcontentside > .insidecontent > div > .close').click(
+		function() {
+			var theposition = -$('.right > .exhibitcontentside').width();
+			$('.right > .exhibitcontentside').animate({
+				right:theposition
+			}, 'slow').queue(function() {
+				$('.right > .exhibitcontentside').hide();
+				$('.right > .exhibitside').css("z-index","5");
+				$('.right > .exhibitcontentside').css("z-index","10");
+				$(this).dequeue();
+			});
+		}
+	);
+
+
+	$('#filterform').change(function(){
+		ajaxload($('#filterform').children('select').val());
+	});
+
+	$('#filterform_products').change(function(){
+		ajaxload($('#filter h3.selected').data('link'));
+	});
+
+	$('#only_new').change(function(){
+		$('#filter h3').each(function(){
+			if($(this).hasClass('selected')){
+				if($(this).data('link') == "2"){
+					ajaxload($('#filterform').children('select').val());
+				} else {
+					ajaxload($(this).data('link'));
+				}
+			}
+		});
+	});
+
+	$('#filter h3').click(function(){
+		$('#filter h3').each(function(){
+			$(this).removeClass('selected');
+		});
+		$(this).addClass('selected');
+		ajaxload($(this).data('link'));
+	});
+
+});
