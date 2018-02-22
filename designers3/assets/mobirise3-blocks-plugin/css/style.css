@@ -4527,8 +4527,8 @@
     padding-top: 60px; }
   .extFeatures13 ul li .timeline-panel {
     width: 44%;
-    padding: 0px 30px 0px;
-    margin-bottom: 30px;
+    padding: 0px 8px 0px;
+    margin-bottom: 10px;
     background-color: rgba(199, 199, 199, 0.17);
     position: relative;
     float: left; }
@@ -4685,7 +4685,7 @@
     margin-top: 0; } }
 @media (max-width: 768px) {
   .extFeatures13 .elements-content {
-    padding-left: 10px; } }
+    padding-left: 0px; } }
 .extHeader16 .mbr-section {
   width: 100%;
   margin-right: 0;

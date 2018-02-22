@@ -29,8 +29,9 @@
     "siteUrl": "undefined",
     "versionFirst": "4.6.2",
     "uniqCompNum": 1,
-    "versionPublish": "4.6.2",
-    "path": "@PROJECT_PATH@"
+    "versionPublish": "4.6.5",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -491,6 +492,39 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/ecd7ce0-1e83-49f1-a48d-e236baeb5107-logo-558x509.png",
                 "thumb": "@PROJECT_PATH@/assets/images/ecd7ce0-1e83-49f1-a48d-e236baeb5107-logo-558x509-558x509.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/211609-465x84.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/211609-465x84-465x84.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/logo-216x150.png",
+                "thumb": "@PROJECT_PATH@/assets/images/logo-216x150-216x150.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/logo-125x125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/logo-125x125-125x125.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": true

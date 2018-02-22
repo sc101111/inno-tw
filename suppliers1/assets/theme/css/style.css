@@ -882,7 +882,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-gallery .mbr-gallery-item {
   position: relative;
   display: inline-block;
-  width: 14.28%; }
+  width: 12.5%; }
    @media (max-width: 1920px) {
     .mbr-gallery .mbr-gallery-item {
       width: 8.33%; } }
@@ -891,7 +891,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
       width: 9.09%; } }
    @media (max-width: 1368px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 16.66%; } }
+      width: 14.28%; } }
   @media (max-width: 1100px) {
     .mbr-gallery .mbr-gallery-item {
       width: 11.11%; } }
