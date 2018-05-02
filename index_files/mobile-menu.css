@@ -7,9 +7,10 @@
 .column {
     float: left;
     width: 25%;
-    padding: 2px;
-	height: 70px; /* Should be removed. Only for demonstration */
+    padding: 0px;
+	height: 70px; /* Should be removed. Only for demonstration */	
 }
+
 
 /* Clear floats after the columns */
 .row:after {
