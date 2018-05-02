@@ -669,6 +669,7 @@ h6,
 }
 .theme-border {
   border: 1px solid #000000;
+ 
 }
 #menu-30 .hide-buttons .nav-btn {
   display: none !important;
@@ -732,8 +733,9 @@ h6,
   color: #000000!important;
 }
 #menu-30 .btn {
-  font-size: 20px;
-}
+  font-size: 21px;
+  padding-top: 0px;
+  }
 #msg-box3-2h .mbr-section-title,
 #msg-box3-2h p {
   color: #000;
