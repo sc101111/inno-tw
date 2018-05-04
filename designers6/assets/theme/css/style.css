@@ -2,6 +2,113 @@
  * Default theme v2 (https://mobirise.com/)
  * Copyright 2016 Mobirise
  */
+
+
+/* Style the tab */
+
+
+
+
+.tab {
+    font-family: microsoft yahei,microsoft jhenghei,arial;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+/* Style the buttons inside the tab */
+.tab button {
+	font-family: microsoft yahei,microsoft jhenghei,arial;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2px 9px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+===== Begin table styles ======
+$gray: #999cab;
+$lighterblue: #e4f7f2;
+$lightblue: #33ccff;
+$lightergray-bg: #F5F5F6;
+$breakpoint: 750px;
+
+table {
+  font-family: 'Lato', sans-serif;
+  color: $gray;
+  width: 100%;
+  
+    th {
+      letter-spacing: 1px;
+      white-space: normal;
+      font-size: .7em;      
+      text-transform: uppercase;
+      background: #FFF;
+      line-height: 1.125rem;
+      vertical-align: middle;
+      padding: 0.5rem 0.625rem 0.625rem;
+    }
+  
+    tbody tr:nth-child(odd) {
+        background-color: $lighterblue;
+    }
+  
+    tr {
+        td {
+            font-size: .8rem;
+            display: table-cell;
+            line-height: 1.125rem;
+            vertical-align: middle;
+            padding: 0.7rem 0.625rem 0.625rem;
+        }
+    }
+}
+
+// restructure data on small screens
+@media (max-width: $breakpoint) {
+  thead tr th {
+    display: none;
+  }
+  tbody tr td {
+    display: block;
+    &:first-child {
+      padding-top: 1rem;
+    }
+    &:last-child {
+      padding-bottom: 1rem;
+    }
+    &:before {
+      display: block;
+      content: attr(data-th)": ";
+      text-transform: uppercase;
+      width: 10rem;
+    }
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+
 .container {
   position: relative; }
 
@@ -885,37 +992,37 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   width: 14.28%; }
    @media (max-width: 1920px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 8.33%; } }
+      width: 7.69%; } }
 	  @media (max-width: 1620px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 9.09%; } }
+      width: 8.33%; } }
    @media (max-width: 1368px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 10%; } }
+      width: 9.09%; } }
   @media (max-width: 1100px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 11.11%; } }
+      width: 10%; } }
 	    @media (max-width: 900px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 12.5%; } }
+      width: 11.11%; } }
 	     @media (max-width: 768px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 14.28%; } }
+      width: 12.5%; } }
 	    @media (max-width: 650px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 16.66%; } }
+      width: 14.28%; } }
 	    @media (max-width: 550px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 20%; } }
+      width: 16.66%; } }
 	    @media (max-width: 450px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 25%; } }
+      width: 20%; } }
 	   @media (max-width: 375px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 33.33%; } }
+      width: 25%; } }
   @media (max-width: 300px) {
     .mbr-gallery .mbr-gallery-item {
-      width: 50%; } }
+      width: 33.33%; } }
 
 .mbr-gallery .mbr-gallery-item img {
   width: 100%;
@@ -2201,35 +2308,3 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 	top: 0;
 	left: -2400px;
 }
-
-目前歐洲設計家, 已開始在國際市場自行賣票, 以德國,荷蘭為主
-https://www.viagogo.com/secure/search?q=fashion
-
-accupass國際模組沒啟動,看您要不要把沒啟動的市場代理起來...
-
-Iphone8 (edition) : 143.59mm x 70.94mm x 7.57mm 
-397 x 693 points (screen size: css)
-人在
-Iphone7                    : 138.30mm x 67.10mm x 7.10mm
-
-他們的合作計劃不錯, 不妨加入他們在北歐的銷售管道.
- 
-Matthew 27:45 
-From noon until three in the afternoon darkness came over all the land
-
-全球設計家沒有國際合作方案...也沒官網
-
-花法科技有限公司 的AR VR 沒做進APP, 也是外包嵌入,現場秀,做做樣子.
-Hosa也是一樣.
-
-看了花法科技有限公司的 FAFA设计师服务平台, 並沒有建立全球智慧型語系,幣別自動轉換,
-產品放在知名通路商上效益比較好,請總裁授權歐洲通路商的合作管道.或是連絡窗口.
-
-歐洲英法等知名的yak agents, 大都選用西藏yak的報價, 不同於青海,四川,蒙古,新彊的報價.
-
-實現智慧化前先要把 語系,幣別 做成自動轉換在地 IPV4/6 (GEO),然後兩端的設計家及廠商,才有清楚的差異化.因為我們已經進入全球在地化的階段.
-
-因為大陸的設計思維是一鍵的概念,
-
-實現智慧化前建議請將 語系,幣別 做成自動轉換在地 IPV4/6 (GEO),然後兩端的設計家及廠商,才有清楚的差異化,知道我們已經進入全球在地化的階段.
-歐洲通路商已經在做穿戴科技的全方位經營.
