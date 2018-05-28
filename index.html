@@ -33,11 +33,118 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" href = "assets/wowslider-init/absent/style.css"></link>
   <link rel="stylesheet" href = "index_files/mobile-menu.css"></link>
-</head>
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+ </head>
+ <style>
+#content {
+    width: 100%;
+    padding: 5px 0;
+    text-align: left;
+    background-color: #d2fdc8;
+    margin-top: 0px;  
+    font-family:malgun gothic, yu gothic, microsoft yahei, microsoft jhenghei, Arial; color:black; font-size: 20px;
+ }
+#content1 {
+    width: 100%;
+    padding: 5px 0;
+    text-align: left;
+    background-color: #998998;
+    margin-top: 0px;  
+    font-family:malgun gothic, yu gothic, microsoft yahei, microsoft jhenghei, Arial; color:black; font-size: 20px;
+ }
+#content2 {
+    width: 100%;
+    padding: 5px 0;
+    text-align: left;
+    background-color: #997870;
+    margin-top: 0px;   
+    font-family:malgun gothic, yu gothic, microsoft yahei, microsoft jhenghei, Arial; color:black; font-size: 20px;
+ } 
+#content3 {
+    width: 100%;
+    padding: 5px 0;
+    text-align: left;
+    background-color: #798689;
+    margin-top: 0px;  
+    font-family:malgun gothic, yu gothic, microsoft yahei, microsoft jhenghei, Arial; color:black; font-size: 20px;
+ }
+#content4 {
+    width: 100%;
+    padding: 5px 0;
+    text-align: left;
+    background-color: #659880;
+    margin-top: 0px;   
+    font-family:malgun gothic, yu gothic, microsoft yahei, microsoft jhenghei, Arial; color:black; font-size: 20px;
+ } 
+#content5 {
+    width: 100%;
+    padding: 5px 0;
+    text-align: left;
+    background-color: #574329;
+    margin-top: 0px;  
+    font-family:malgun gothic, yu gothic, microsoft yahei, microsoft jhenghei, Arial; color:black; font-size: 20px;
+ }
+#content6 {
+    width: 100%;
+    padding: 5px 0;
+    text-align: left;
+    background-color: #307649;
+    margin-top: 0px;   
+    font-family:malgun gothic, yu gothic, microsoft yahei, microsoft jhenghei, Arial; color:black; font-size: 20px;
+ } 
+</style>
+<script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow').on('click', function(event) {        
+             jQuery('#content').toggle('show');
+        });
+    });
+</script>
+<script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow1').on('click', function(event) {        
+             jQuery('#content1').toggle('show');
+        });
+    });
+</script>
+<script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow2').on('click', function(event) {        
+             jQuery('#content2').toggle('show');
+        });
+    });
+</script>
+<script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow3').on('click', function(event) {        
+             jQuery('#content3').toggle('show');
+        });
+    });
+</script>
+<script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow4').on('click', function(event) {        
+             jQuery('#content4').toggle('show');
+        });
+    });
+</script>
+<script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow5').on('click', function(event) {        
+             jQuery('#content5').toggle('show');
+        });
+    });
+</script>
+<script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow6').on('click', function(event) {        
+             jQuery('#content6').toggle('show');
+        });
+    });
+</script>
+
 <body style="overflow-x: hidden; overflow-y: auto;">
 <section id="menu-30" data-rv-view="0">
-
     <nav class="navbar navbar-dropdown transparent bg-color">
         <div class="container">
 
@@ -129,15 +236,65 @@
         </div>
         <div class="ws_shadow"></div>
         <div class="mbr-wowslider-options">
-            <div class="params" data-paddingbottom="0" data-anim-type="basic" data-theme="absent" data-autoplay="false" data-paddingtop="0" data-fullscreen="true" data-showbullets="false" data-timeout="1" data-duration="0.5" data-height="576" data-width="1024" data-responsive="2" data-showcaptions="false" data-captionseffect="slide" data-hidecontrols="false"></div>
+            <div class="params" data-paddingbottom="0" data-anim-type="basic" data-theme="absent" data-autoplay="true" data-paddingtop="0" data-fullscreen="true" data-showbullets="false" data-timeout="1" data-duration="0.8" data-height="480" data-width="640" data-responsive="2" data-showcaptions="false" data-captionseffect="slide" data-hidecontrols="false"></div>
         </div>
-</div></section>
+</div>
+</section>
 
-<div id="extTable1-2i" custom-code="true" data-rv-view="22">
-<div class="row">
+<div id="extTable1-2i" custom-code="true" data-rv-view="22" >
+</script>
+<div class="row" align="center">
+<input type='button' id='hideshow1' value='Button menu 1'>
+<input type='button' id='hideshow2' value='Button menu 2'>
+<input type='button' id='hideshow3' value='Button menu 3'>
+<input type='button' id='hideshow4' value='Button menu 4'>
+<input type='button' id='hideshow5' value='Button menu 5'>
+<input type='button' id='hideshow6' value='Button menu 6'>
+<div style="display: none" id='content1'>
+繁體中文測試1</br>
+简体中文测试1</br>
+日本語テキストテスト1</br>
+한국어 텍스트 테스트1</br>
+This is my DIV element.1
+</div>
+<div style="display: none" id='content2'>
+繁體中文測試2</br>
+简体中文测试2</br>
+日本語テキストテスト2</br>
+한국어 텍스트 테스트2</br>
+This is my DIV element.2
+</div>
+<div style="display: none" id='content3'>
+繁體中文測試3</br>
+简体中文测试3</br>
+日本語テキストテスト3</br>
+한국어 텍스트 테스트3</br>
+This is my DIV element.3
+</div>
+<div style="display: none" id='content4'>
+繁體中文測試4</br>
+简体中文测试4</br>
+日本語テキストテスト4</br>
+한국어 텍스트 테스트2</br>
+This is my DIV element.2
+</div>
+<div style="display: none" id='content5'>
+繁體中文測試5</br>
+简体中文测试5</br>
+日本語テキストテスト5</br>
+한국어 텍스트 테스트5</br>
+This is my DIV element.5
+</div>
+<div style="display: none" id='content6'>
+繁體中文測試6</br>
+简体中文测试6</br>
+日本語テキストテスト6</br>
+한국어 텍스트 테스트6</br>
+This is my DIV element.6
+</div>
   <div class="column">
     <div align="center" style="background-image:url('bu9.png'); background-repeat: no-repeat;background-position: center; ">
-	<a href="#"><img src="assets/images/1.svg" width="40" height="40"><h6>Buyers</h6></a>
+	<a href="#" ><img src="assets/images/1.svg" width="40" height="40"><h6>Buyers</h6></a>
 	</div>
   </div>
   <div class="column" >
@@ -196,7 +353,7 @@
 	</div>
   </div>  
 </div>
-<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./designers6/index01.html"></iframe>
+<iframe width="100%" height="650" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./designers6/index01.html"></iframe>
  <section class="mbr-section counters1 counters" id="extCounters1-0" data-bg-video="https://www.youtube.com/embed/hPODLF81rdc?rel=0&showinfo=0&amp;autoplay=1&amp;loop=0" data-rv-view="3" style="padding-top: 80px; padding-bottom: 40px;">
 
     <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(21, 21, 21);">
