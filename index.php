@@ -247,7 +247,7 @@ a {
 }
 
 li:after {
-  content: url(http://cero.lared21.com/wp-content/themes/lared21/images/arr.gif);
+ 
   padding: 0 1em;
 }
 
@@ -866,7 +866,7 @@ div.item-menu-2 {
         </ul>			
   </div>
 </div>
-
+<iframe width="100%" height="650" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./designers6/index01.html"></iframe>
 <section class="mbr-wowslider-container mbr-section mbr-section__container carousel slide mbr-section-nopadding mbr-wowslider-container--absent" data-ride="carousel" data-keyboard="false" data-wrap="true" data-interval="false" id="wowslider-1y" data-rv-view="4" style="background-color: rgb(255, 255, 255);">
     <div class="mbr-wowslider">
         <div class="ws_images">
@@ -912,14 +912,8 @@ div.item-menu-2 {
 </section>
 
 
-
-  <div align="center">
-  <a href="https://inno-tw.herokuapp.com" target="_blank"><img src="index_files/frame.png" width="100" height="100"></a>
-  </div>
   
-
-<iframe width="100%" height="650" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./designers6/index01.html"></iframe>
- <section class="mbr-section counters1 counters" id="extCounters1-0" data-bg-video="https://www.youtube.com/embed/hPODLF81rdc?rel=0&showinfo=0&amp;autoplay=1&amp;loop=0" data-rv-view="3" style="padding-top: 80px; padding-bottom: 40px;">
+<section class="mbr-section counters1 counters" id="extCounters1-0" data-bg-video="https://www.youtube.com/embed/hPODLF81rdc?rel=0&showinfo=0&amp;autoplay=1&amp;loop=0" data-rv-view="3" style="padding-top: 80px; padding-bottom: 40px;">
 
     <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(21, 21, 21);">
     </div>
@@ -964,24 +958,6 @@ div.item-menu-2 {
 
 
 
-	<div id="bottom">
-		<footer>
-			
-							<div id="social">
-					<ul>
-													<li>
-																	<a href="#" title="Android" target="_blank"><img src="./index_files/android-1.jpg" height="28" width="100" title="Android" alt="Android"></a>
-															</li>
-															<li>
-																	<a href="#" title="IOS" target="_blank"><img src="./index_files/ios-1.jpg" height="30"  title="ios" alt="ios"></a>
-															</li>
-											</ul>
-				</div>
-										
-					</footer>
-	</div>
-
-
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -1007,3 +983,5 @@ div.item-menu-2 {
   <input name="animation" type="hidden">
   </body>
 </html>
+<?php
+?>
