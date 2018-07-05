@@ -857,7 +857,8 @@ div.item-menu-2 {
   </div>
 </div>
 <iframe width="100%" height="650" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./designers6/index01.html"></iframe>
-<section class="mbr-section mbr-section-nopadding extFeatures6" id="extFeatures6-0" data-rv-view="6" style="background-color: rgb(255, 255, 255);">
+
+<section class="engine"><a href="#">free website templates</a></section><section class="mbr-section mbr-section-nopadding extFeatures5" id="extFeatures5-1" data-rv-view="9" style="background-color: rgb(255, 255, 255);">
 
     
   <div class="container">
@@ -868,15 +869,15 @@ div.item-menu-2 {
                 <div class="container">
                   <div class="card cart-block">
                       <div class="card-block">
-                          <div class="card-title">
-                            <div class="card-title inner">
+                          <div class="card-title-img">
+                            <img src="index_files/designer-3.png" width="65" height="65">
+                            <div class="card-title">
                                 <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">服装品牌设计师</font>
-                                <h5 class="card-subtitle">23,218 &nbsp;Global Designers</h5>
+                                <h5 class="card-subtitle">23,218 &nbsp;Designers</h5>
                             </div>
-                            <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">闪电搜索数千位服装设计师，数以万计份真实评价帮您放心选择。</font>
-                            
-                          </div> 
-                          <div class="img-wraper"><img type='button' src="index_files/designer-3.png" width="65" height="65"></div>
+                          </div>
+                         <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">闪电搜索数千位服装设计师，数以万计份真实评价帮您放心选择。</font>
+                          
                       </div>
                   </div>
                 </div>
@@ -888,15 +889,15 @@ div.item-menu-2 {
               <div class="container">
                 <div class="card cart-block">
                     <div class="card-block">
-                          <div class="card-title">
-                              <div class="card-title inner">
-                                  <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">用户数</font>
-                                  <h5 class="card-subtitle">143,580 Users</h5>
-                              </div>
-                             <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">高端纺织业者经理云集于此，寻求适合所在公司的最佳纺织资源解决方案。</font>
-                              
+                          <div class="card-title-img">
+                            <img src="index_files/join-3.png" width="65" height="65">
+                            <div class="card-title">
+                                <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">用户数</font>
+                                <h5 class="card-subtitle">143,580 Users</h5>
+                            </div>
                           </div>
-                          <div class="img-wraper"><img src="index_files/join-3.png" width="65" height="65"></div>
+                        <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">高端纺织业者经理云集于此，寻求适合所在公司的最佳纺织资源解决方案。</font>
+                          
                       </div>
 
 
@@ -909,15 +910,15 @@ div.item-menu-2 {
               <div class="container">
                 <div class="card cart-block">
                    <div class="card-block">
-                        <div class="card-title">
-                            <div class="card-title inner">
+                          <div class="card-title-img">
+                            <img src="index_files/supplier-3.png" width="65" height="65">
+                            <div class="card-title">
                                 <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">供应商</font>
                                 <h5 class="card-subtitle">2,503 Suppliers</h5>
                             </div>
-                           <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">成千上万家优质纺织业者资源服务供应商推出的最佳方案，必有一款适合您。</font>
-                            
-                          </div> 
-                          <div class="img-wraper"><img src="index_files/supplier-3.png" width="65" height="65"></div> 
+                          </div>
+                         <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">成千上万家优质纺织业者资源服务供应商推出的最佳方案，必有一款适合您。</font>
+                          
                       </div>
                 </div>
               </div>
@@ -928,16 +929,16 @@ div.item-menu-2 {
               <div class="container">
                 <div class="card cart-block">
                     <div class="card-block">
-                          <div class="card-title">
-                            <div class="card-title inner">
-                               <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">产品/ 服务/ 解决方案</font>
+                          <div class="card-title-img">
+                            <img src="index_files/solution-5.png" width="65" height="65">
+                            <div class="card-title">
+                                <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">产品/ 服务/ 方案</font>
                                 <h5 class="card-subtitle">581 Solutions</h5>
                             </div>
-                           <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">确定问题对象和影响范围→ 分析问题→ 提出解决问题的办法和建议。</font>
-                            
-                          </div> 
-                          <div class="img-wraper"><img src="index_files/solution-5.png" width="65" height="65"></div> 
-                    </div>
+                          </div>
+                       <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">确定问题对象和影响范围→ 分析问题→ 提出解决问题的办法和建议。</font>
+                          
+                      </div>
                 </div>
               </div>
               </div>
@@ -945,7 +946,7 @@ div.item-menu-2 {
     </div>
     </div>
   </div>
-    
+
 </section>
 
 <section class="engine"><a href="#">free website templates</a></section><section class="mbr-section mbr-section-nopadding extFeatures5" id="extFeatures5-1" data-rv-view="9" style="background-color: rgb(255, 255, 255);">
