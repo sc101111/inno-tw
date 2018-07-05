@@ -775,13 +775,19 @@ h6,
   color: #ffffff;
 }
 #msg-box3-25 .div1 {
-  width: 50%;
+  width: 33.33%;
   float: left;
   background: #fff;
   height: 100%;
 }
 #msg-box3-25 .div2 {
-  width: 50%;
+  width: 33.33%;
+  float: left;
+  background: #fff;
+  height: 100%;
+}
+#msg-box3-25 .div3 {
+  width: 33.33%;
   float: right;
   background: #fff;
   height: 100%;
