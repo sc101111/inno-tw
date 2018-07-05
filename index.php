@@ -349,59 +349,59 @@ div.item-menu-2 {
     <span class="caption-menu-2">2,083</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow16' src="index_files/join-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow4' src="index_files/join-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">6,201</span>
 </div>
 <div class="item-menu-2">
-    <a href="./events/index.html" target="_self"><img type='button' src="index_files/tradeshow-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow18' src="index_files/tradeshow-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">648</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow4' src="index_files/files-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow5' src="index_files/files-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">4,057</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow5' src="index_files/video-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow6' src="index_files/video-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">1,180</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow6' src="index_files/go-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow7' src="index_files/go-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">1,310</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow7' src="index_files/top-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow8' src="index_files/top-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">518</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow8' src="index_files/post-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow9' src="index_files/post-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">267</span>
 </div>
 <div class="item-menu-2">
-   <a><img type='button' id='hideshow9' src="index_files/download-3.png" width="65" height="65"></a>
+   <a><img type='button' id='hideshow10' src="index_files/download-3.png" width="65" height="65"></a>
    <span class="caption-menu-2">795</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow10' src="index_files/fabrics-2-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow11' src="index_files/fabrics-2-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">4,316</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow11' src="index_files/menswear-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow12' src="index_files/menswear-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">652</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow12' src="index_files/womenswear-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow13' src="index_files/womenswear-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">1,712</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow13' src="index_files/fashionweek-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow14' src="index_files/fashionweek-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">891</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow14' src="index_files/buyer-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow15' src="index_files/buyer-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">10,323</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow15' src="index_files/seller-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow17' src="index_files/seller-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">14,770</span>
 </div>
 </div>
@@ -825,13 +825,7 @@ div.item-menu-2 {
 </div>
 </div>
 <div style="display: none" id='content18'>
-<div style="padding: 5px 15px;" align="left">
-<a href="#">繁體中文測試18</a></br>
-<a href="#">简体中文测试18</a></br>
-<a href="#">日本語テキストテスト18</a></br>
-<a href="#">한국어 텍스트 테스트18</a></br>
-<a href="#">This is my DIV element.18</a>
-</div>
+<iframe width="100%" height="450" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="./events/index.html"></iframe>
 </div>
          
     </div>
