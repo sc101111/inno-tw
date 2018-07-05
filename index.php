@@ -301,7 +301,7 @@ div.item-menu-2 {
                         <div class="hamburger-icon"></div>
                     </button>
 
-                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="https://www.123contactform.com/form-2764113/">Join Member</a></li></ul>
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="https://www.123formbuilder.com/form-2764113/Join-Us">Join Member</a></li></ul>
                     <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <div class="close-icon"></div>
                     </button>
@@ -328,8 +328,9 @@ div.item-menu-2 {
 <div id="msg-box3-25" custom-code="true" data-rv-view="3"><section class="mbr-section article" data-rv-view="396" style="background-color: rgb(255, 255, 255); padding-top: 0px; padding-bottom: 0px;">
 
 <div class="row" align="center">
-<div class="div1"><a href="#"> <img src="assets/images/w.png" width="45" height="45"><font face="microsoft yahei" style="font-size:18px; color: black ;font-weight: bold; vertical-align: middle;">&nbsp;最新通知</font></a></div> <div class="div2"><a href="#"> <img src="assets/images/x.png" width="45" height="45"><font face="microsoft yahei" style="font-size:18px; color:black;font-weight: bold; vertical-align: middle;">&nbsp;发布需求</font></a></div>
-</div>   
+<div class="div1"><a href="#"> <img src="assets/images/w.png" width="45" height="45"><font face="microsoft yahei" style="font-size:14px; color: black ;font-weight: bold; vertical-align: middle;">&nbsp;最新通知</font></a></div> <div class="div2"><a href="#"> <img src="assets/images/x.png" width="45" height="45"><font face="microsoft yahei" style="font-size:14px; color:black;font-weight: bold; vertical-align: middle;">&nbsp;发布需求</font></a></div>  <div class="div3"><a><img type='button' id='hideshow16' src="assets/images/y.png" width="45" height="45"><font face="microsoft yahei" style="font-size:14px; color:black;font-weight: bold; vertical-align: middle;">&nbsp;加入会员</font></a></div>
+</div> 
+
 <div align="center">
 <div class="item-menu-2">
     <a href="./designers6/index01.html" target="_self"><img type='button' src="index_files/designer-3.png" width="65" height="65"></a>
@@ -348,7 +349,7 @@ div.item-menu-2 {
     <span class="caption-menu-2">2,083</span>
 </div>
 <div class="item-menu-2">
-    <a href="https://www.123formbuilder.com/form-2764113/Join-Us" target="_self"><img type='button' src="index_files/join-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow16' src="index_files/join-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">6,201</span>
 </div>
 <div class="item-menu-2">
@@ -811,12 +812,7 @@ div.item-menu-2 {
 </div>
 </div>
 <div style="display: none" id='content16'>
-<div style="padding: 5px 15px;" align="left">
-<a href="#">繁體中文測試16</a></br>
-<a href="#">简体中文测试16</a></br>
-<a href="#">日本語テキストテスト16</a></br>
-<a href="#">한국어 텍스트 테스트16</a></br>
-<a href="#">This is my DIV element.16</a>
+<iframe width="100%" height="650" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://www.123formbuilder.com/form-2764113/Join-Us"></iframe>
 </div>
 </div>
 <div style="display: none" id='content17'>
