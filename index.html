@@ -857,6 +857,187 @@ div.item-menu-2 {
   </div>
 </div>
 <iframe width="100%" height="650" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./designers6/index01.html"></iframe>
+<section class="mbr-section mbr-section-nopadding extFeatures6" id="extFeatures6-0" data-rv-view="6" style="background-color: rgb(255, 255, 255);">
+
+    
+  <div class="container">
+    <div class="row">
+      <div class="mbr-cards-row row">
+            <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 0px; padding-bottom: 0px;">
+                <div class="wraper">
+                <div class="container">
+                  <div class="card cart-block">
+                      <div class="card-block">
+                          <div class="card-title">
+                            <div class="card-title inner">
+                                <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">服装品牌设计师</font>
+                                <h5 class="card-subtitle">23,218 &nbsp;Global Designers</h5>
+                            </div>
+                            <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">闪电搜索数千位服装设计师，数以万计份真实评价帮您放心选择。</font>
+                            
+                          </div> 
+                          <div class="img-wraper"><img type='button' src="index_files/designer-3.png" width="65" height="65"></div>
+                      </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 0px; padding-bottom: 0px;">
+               <div class="wraper">
+              <div class="container">
+                <div class="card cart-block">
+                    <div class="card-block">
+                          <div class="card-title">
+                              <div class="card-title inner">
+                                  <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">用户数</font>
+                                  <h5 class="card-subtitle">143,580 Users</h5>
+                              </div>
+                             <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">高端纺织业者经理云集于此，寻求适合所在公司的最佳纺织资源解决方案。</font>
+                              
+                          </div>
+                          <div class="img-wraper"><img src="index_files/join-3.png" width="65" height="65"></div>
+                      </div>
+
+
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 0px; padding-bottom: 0px;">
+              <div class="wraper">
+              <div class="container">
+                <div class="card cart-block">
+                   <div class="card-block">
+                        <div class="card-title">
+                            <div class="card-title inner">
+                                <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">供应商</font>
+                                <h5 class="card-subtitle">2,503 Suppliers</h5>
+                            </div>
+                           <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">成千上万家优质纺织业者资源服务供应商推出的最佳方案，必有一款适合您。</font>
+                            
+                          </div> 
+                          <div class="img-wraper"><img src="index_files/supplier-3.png" width="65" height="65"></div> 
+                      </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 0px; padding-bottom: 0px;">
+              <div class="wraper">
+              <div class="container">
+                <div class="card cart-block">
+                    <div class="card-block">
+                          <div class="card-title">
+                            <div class="card-title inner">
+                               <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">产品/ 服务/ 解决方案</font>
+                                <h5 class="card-subtitle">581 Solutions</h5>
+                            </div>
+                           <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">确定问题对象和影响范围→ 分析问题→ 提出解决问题的办法和建议。</font>
+                            
+                          </div> 
+                          <div class="img-wraper"><img src="index_files/solution-5.png" width="65" height="65"></div> 
+                    </div>
+                </div>
+              </div>
+              </div>
+            </div>
+    </div>
+    </div>
+  </div>
+    
+</section>
+
+<section class="engine"><a href="#">free website templates</a></section><section class="mbr-section mbr-section-nopadding extFeatures5" id="extFeatures5-1" data-rv-view="9" style="background-color: rgb(255, 255, 255);">
+
+    
+  <div class="container">
+    <div class="row">
+      <div class="mbr-cards-row row">
+            <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 0px; padding-bottom: 0px;">
+                <div class="wraper">
+                <div class="container">
+                  <div class="card cart-block">
+                      <div class="card-block">
+                          <div class="card-title-img">
+                            <img src="index_files/tradeshow-3.png" width="65" height="65">
+                            <div class="card-title">
+                                <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">活动/会展/培训</font>
+                                <h5 class="card-subtitle">3,821 Events</h5>
+                            </div>
+                          </div>
+                         <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">纺织业界人士交流、合作、会展实时更新，欢迎您的发布、关注与参与。</font>
+                          
+                      </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 0px; padding-bottom: 0px;">
+               <div class="wraper">
+              <div class="container">
+                <div class="card cart-block">
+                    <div class="card-block">
+                          <div class="card-title-img">
+                            <img src="index_files/video-3.png" width="65" height="65">
+                            <div class="card-title">
+                                <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">视频与微课</font>
+                                <h5 class="card-subtitle">43,301 Video &amp; Live</h5>
+                            </div>
+                          </div>
+                        <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">小资现场新作秀，各大时装发表，供应商新面料及纺织业界新闻。</font>
+                          
+                      </div>
+
+
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 0px; padding-bottom: 0px;">
+              <div class="wraper">
+              <div class="container">
+                <div class="card cart-block">
+                   <div class="card-block">
+                          <div class="card-title-img">
+                            <img src="index_files/files-3.png" width="65" height="65">
+                            <div class="card-title">
+                                <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">报告与文档</font>
+                                <h5 class="card-subtitle">23,108 Reports</h5>
+                            </div>
+                          </div>
+                         <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">数以千计全球纺织业者分享的文件及报告，可使您的判断更为准确。</font>
+                          
+                      </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 0px; padding-bottom: 0px;">
+              <div class="wraper">
+              <div class="container">
+                <div class="card cart-block">
+                    <div class="card-block">
+                          <div class="card-title-img">
+                            <img src="index_files/service-3.png" width="65" height="65">
+                            <div class="card-title">
+                                <font face="microsoft yahei" style="font-size:20px; color: black ;font-weight: bold; vertical-align: middle;">线上服務</font>
+                                <h5 class="card-subtitle">1,302 online vendors</h5>
+                            </div>
+                          </div>
+                       <font face="microsoft yahei" style="font-size:16px; color: black ;font-weight:normal; vertical-align: middle;">快速帮您解决纺织相关问题，面料提供者,原料价差等问题。</font>
+                          
+                      </div>
+                </div>
+              </div>
+              </div>
+            </div>
+    </div>
+    </div>
+  </div>
+
+</section>
 <section class="mbr-wowslider-container mbr-section mbr-section__container carousel slide mbr-section-nopadding mbr-wowslider-container--absent" data-ride="carousel" data-keyboard="false" data-wrap="true" data-interval="false" id="wowslider-1y" data-rv-view="4" style="background-color: rgb(255, 255, 255);">
     <div class="mbr-wowslider">
         <div class="ws_images">
