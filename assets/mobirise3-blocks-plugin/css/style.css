@@ -870,7 +870,7 @@
 
 @media (max-width: 991px) {
   .extFeatures5 .mbr-cards-col {
-    padding-top: 50px !important;
+    padding-top: 0px !important;
     padding-bottom: 0px !important; }
   .extFeatures5 .card-img {
     width: 10%; }
@@ -883,7 +883,7 @@
     width: auto; } }
 @media (max-width: 366px) {
   .extFeatures5 .card-title-h {
-    padding-top: 15px; } }
+    padding-top: 0px; } }
 .extFeatures6 {
   text-align: right; }
   .extFeatures6 .container {
@@ -941,7 +941,7 @@
 
 @media (max-width: 991px) {
   .extFeatures6 .mbr-cards-col {
-    padding-top: 55px !important;
+    padding-top: 0px !important;
     padding-bottom: 0px !important; }
   .extFeatures6 .img-wraper {
     text-align: left;

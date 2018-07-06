@@ -170,6 +170,20 @@ jQuery(document).ready(function(){
     });
 </script>
 <script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow19').on('click', function(event) {        
+             jQuery('#content19').toggle('show');
+        });
+    });
+</script>
+<script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow20').on('click', function(event) {        
+             jQuery('#content20').toggle('show');
+        });
+    });
+</script>
+<script>
 $(document).ready(function($) {  
 
 // Ancho del ul
@@ -247,7 +261,7 @@ a {
 }
 
 li:after {
- 
+  content: url(../index_files/instagram.png);
   padding: 0 1em;
 }
 
@@ -349,7 +363,7 @@ div.item-menu-2 {
     <span class="caption-menu-2">2,083</span>
 </div>
 <div class="item-menu-2">
-    <a><img type='button' id='hideshow4' src="index_files/join-3.png" width="65" height="65"></a>
+    <a><img type='button' id='hideshow4' src="index_files/tool-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">6,201</span>
 </div>
 <div class="item-menu-2">
@@ -403,6 +417,10 @@ div.item-menu-2 {
 <div class="item-menu-2">
     <a><img type='button' id='hideshow17' src="index_files/seller-3.png" width="65" height="65"></a>
     <span class="caption-menu-2">14,770</span>
+</div>
+<div class="item-menu-2">
+    <a><img type='button' id='hideshow19' src="index_files/service-3.png" width="65" height="65"></a>
+    <span class="caption-menu-2">839</span>
 </div>
 </div>
 
@@ -812,7 +830,7 @@ div.item-menu-2 {
 </div>
 </div>
 <div style="display: none" id='content16'>
-<iframe width="100%" height="650" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://www.123formbuilder.com/form-2764113/Join-Us"></iframe>
+<iframe width="100%" height="650" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://www.123formbuilder.com/form-3916947/"></iframe>
 </div>
 </div>
 <div style="display: none" id='content17'>
@@ -826,6 +844,24 @@ div.item-menu-2 {
 </div>
 <div style="display: none" id='content18'>
 <iframe width="100%" height="450" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="./events/index.html"></iframe>
+</div>
+<div style="display: none" id='content19'>
+<div style="padding: 5px 15px;" align="left">
+<a href="#">繁體中文測試19</a></br>
+<a href="#">简体中文测试19</a></br>
+<a href="#">日本語テキストテスト19</a></br>
+<a href="#">한국어 텍스트 테스트19</a></br>
+<a href="#">This is my DIV element.19</a>
+</div>
+</div>
+<div style="display: none" id='content20'>
+<div style="padding: 5px 15px;" align="left">
+<a href="#">繁體中文測試20</a></br>
+<a href="#">简体中文测试20</a></br>
+<a href="#">日本語テキストテスト20</a></br>
+<a href="#">한국어 텍스트 테스트20</a></br>
+<a href="#">This is my DIV element.20</a>
+</div>
 </div>
          
     </div>
