@@ -34,6 +34,10 @@
   <link rel="stylesheet" href = "index_files/mobile-menu.css"></link>
   <link rel="stylesheet" href = "index_files/menu.css"></link>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  <script src="index_files/vue.js">    
+  <link rel="stylesheet" href = "index_files/vue-designers.css"></link>
+  <script src="index_files/vue-designers.js"></script>  
+ 
  </head>
  
 <script>
@@ -334,7 +338,7 @@ div.item-menu-2 {
    
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-xs-center">
-           <div class="div1"><a href="#">  <img src="index_files/logo-3.png" width="174" height="40"> <font face="arial" style="font-size:30px; color: rgb(255, 255, 255);font-weight: bold; vertical-align: middle;">&nbsp;</font></a></div>       
+           <div class="div1"><a href="#">  <img src="index_files/logo.png" width="200" height="42"> <font face="arial" style="font-size:30px; color: rgb(255, 255, 255);font-weight: bold; vertical-align: middle;">&nbsp;</font></a></div>       
     </div>           </div>
                </section>
 </div>
@@ -894,8 +898,7 @@ div.item-menu-2 {
 </div>
 <iframe width="100%" height="650" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./designers6/index01.html"></iframe>
 
-<section class="engine"><a href="#">free website templates</a></section><section class="mbr-section mbr-section-nopadding extFeatures5" id="extFeatures5-1" data-rv-view="9" style="background-color: rgb(255, 255, 255);">
-
+<section class="engine"><a>free website templates</a></section><section class="mbr-section mbr-section-nopadding extFeatures5" id="extFeatures5-1" data-rv-view="9" style="background-color: rgb(255, 255, 255);">
     
   <div class="container">
     <div class="row">
